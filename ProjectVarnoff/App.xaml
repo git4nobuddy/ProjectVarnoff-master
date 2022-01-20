@@ -1,0 +1,19 @@
+﻿<Application x:Class="ProjectVarnoff.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProjectVarnoff"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="AddCollor" Color="#E7FABF"/>
+        <SolidColorBrush x:Key="AcentCollor" Color="#04A0FF"/>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Comic Sans Ms"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AddCollor}"/>
+        </Style>
+        <BitmapImage x:Key="Picture" UriSource="/Resources/Picture.jpg" />
+"
+    </Application.Resources>
+</Application>
